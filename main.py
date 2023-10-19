@@ -1,6 +1,7 @@
 #Import required packages
 import glob
 import PyPDF2
+import pandas as pd
 
 path = "" #Enter pathname here with all .pdf files
 
@@ -8,6 +9,7 @@ path = "" #Enter pathname here with all .pdf files
 pdf_lists = sorted(glob.glob(path))
 
 #Create empty list to store subject_id and MRI impressions
+
 data = []
 
 for i in range(len(pdf_lists)):
@@ -33,3 +35,7 @@ for i in range(len(pdf_lists)):
         data.append([sub_id,impression,fazekas_score])
         
     print(sub_id,':DONE')
+
+#Save the extracted data
+destination_path = ""
+save_data_to_csv = pd.DataFrame(data,columns=['SubID','Comments','Fazekas']).to_csv(destination_path)
