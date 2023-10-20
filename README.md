@@ -6,7 +6,7 @@ CBR-SANSCOG study is a first-of-its-kind research project in India and one of th
 
 ![image](https://github.com/pradhanhitesh/sanscog-report_extraction/assets/97480316/7b1024c1-d576-470b-9f56-9b95d8ff82d0)
 
-<b>END TO END MRI REPORTS PROCESSING PIPELINE AND CLUSTERING BASED ON IMPRESSIONS AND FAZEKAS SCORE</b>
+<b1>END TO END MRI REPORTS PROCESSING PIPELINE AND CLUSTERING BASED ON IMPRESSIONS AND FAZEKAS SCORE</b1>
 
 I handle multimodal data such clinical, cognitive, blood biochemistry and especially, the multimodal neuroimaging data. However, handling neuroimaging data can be quite tricky and difficult, especially when the acquired neuroimaing modality has some discrepancies such as white matter hypointensities or lesion. In such scenario, it is important to remove those images from analysis. We rely on radiologists report to exclude subjects from analysis. However, going through more than 1000 radiologists report can be cumbersome and tiring. Hence, using Python, I automated the data-extraction process from PDF files, allowing me to review radiologists comment in a shorter amount of time and do the needful. 
 
