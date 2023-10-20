@@ -12,6 +12,6 @@ I handle multimodal data such clinical, cognitive, blood biochemistry and especi
 
 ![workflow](https://github.com/pradhanhitesh/sanscog-report_extraction/assets/97480316/da9ae611-cf2f-495a-b1b1-768b02cfbdda)
 
-After extraction of data, based on impressions and FAZEKAS score, the reports were classified as abnormal brain MRI and normal brain MRI. To have better visualization of abnormal and normal MRI scans, I formed a word cloud based on code provided by https://www.geeksforgeeks.org/generating-word-cloud-python/ 
+After extraction of data, based on impressions and FAZEKAS score, the reports were classified as abnormal brain MRI and normal brain MRI. To have better visualization of abnormal and normal MRI scans, I formed a word cloud based on code provided by https://www.geeksforgeeks.org/generating-word-cloud-python/ The word cloud conveys the most frequently words used by Radiologist for flagging abnormal and normal scans.
 
 ![Untitled-1](https://github.com/pradhanhitesh/sanscog-report_extraction/assets/97480316/516b6ac5-2f96-40a1-9b1d-01b4114c4cee)
